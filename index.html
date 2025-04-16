@@ -1,100 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PMERUVA</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-        </style>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranathi Meruva - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Pranathi Meruva</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+    </header>
 
-        <header class="header">
-            <a href="#" class="logo"><span>Pranathi Meruva</span></a>
-            <ul class = "nav-links">
-                <li>
-                    <a href="/about">About</a>
-                </li>
-                <li>
-                    <a href="/experience">Experience</a>
-                </li>
-                <li>
-                    <a href="/education">Education</a>
-                </li>
-                <li>
-                    <a href="/projects">Projects</a>
-                </li>
-                <li>
-                    <a href="/contact">Contact</a>
-                </li>
-            </ul>
-            <i class="fa-solid fa-bars" id="menu-icon"></i>
-            <button class="visit-btn">Visit Github</button>
-        </header>
-
-        <section id="about" class="about">
-            <div class="about-container">
-                <img src="pro_pic.png" alt="">
-                <div class="info-box">
-
-                    <div class="text">
-                        <h3>Hi, I am </h3>
-                        <h1>Pranathi Meruva</h1>
-                    </div>
-
-                    <div class="btn-group">
-                        <div class="btn">Download Resume</div>
-                        <div class="btn">Contact</div>
-                    </div>
-
-                    <div class="socials">
-                        <i class="fa-brands fa-github"></i>
-                        <i class="fa-brands fa-linkedin"></i>
-                    </div>
-
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="pro_pic.png" alt="Pranathi Meruva">
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Pranathi Meruva</h1>
+                    <p>Master's graduate passionate about building scalable, user-friendly web applications. Full stack developer who loves turning ideas into real products.</p>
+                </div>
+                <div class="btn-group">
+                    <button class="btn" id="resume-btn">Download Resume</button>
+                    <button class="btn" id="contact-btn">Contact Me</button>
+                </div>
+                <div class="socials">
+                    <a href="https://github.com/pranathimeruva" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/pranathimeruva/" target="_blank"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="experience" class="experience">
-            <h2 class="section-title">Experience</h2>
-            <div class="experience-info">
-                <div class="grid">
-                    <div class="grid-card">
-                        <span>Full-stack Intern</span>
-                        <h4>TeachingSolved</h4>
-                        <p>
-                            <ul>
-                                <li>Building backend features for Lesson Magic (https://www.teachingsolved.com/ ), a web app that helps teachers create and 
-                                    manage language lessons.</li>
-                                <li>Writing backend logic in Python and connecting it with a React and Next.js frontend.</li>
-                                <li>Setting up and managing the database to support user accounts, lesson data, and progress tracking.</li>
-                                <li>Implementing Clerk for login and user authentication.</li>
-                            </ul>
-                        </p>
+    <section id="skills" class="section">
+        <h2 class="title">Skills</h2>
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3>Frontend</h3>
+                <div class="skills-icons">
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
                     </div>
-                    <div class="grid-card">
-                        <span>Web Developer Intern</span>
-                        <h4>Spitz</h4>
-                        <p>Loream ipsum</p>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
                     </div>
-                    <div class="grid-card">
-                        <span>Software Engineer</span>
-                        <h4>Tata Consultancy Services</h4>
-                        <p>Loream ipsum</p>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
                     </div>
-                    <div class="grid-card">
-                        <span>Software Engineering Intern</span>
-                        <h4>TechnoExcel</h4>
-                        <p>Loream ipsum</p>
+                    <div class="skill-item">
+                        <i class="fas fa-code"></i>
+                        <span>Next.js</span>
                     </div>
-                </div> 
+                </div>
             </div>
-        </section>
+    
+            <div class="skills-category">
+                <h3>Backend</h3>
+                <div class="skills-icons">
+                    <div class="skill-item">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express">
+                        <span>Express</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                        <span>Java</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skills-category">
+                <h3>DevOps & Cloud</h3>
+                <div class="skills-icons">
+                    <div class="skill-item">
+                        <i class="fab fa-aws"></i>
+                        <span>AWS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-docker"></i>
+                        <span>Docker</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes">
+                        <span>K8s</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase">
+                        <span>Firebase</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <script src="script.js"></script>
-    </body>
+    <section id="education" class="section">
+        <h2 class="title">Education</h2>
+        <div class="education-container">
+            <div class="text">
+                <h3>Arizona State University</h3>
+                <p>MS in Information Technology</p>
+                <p>Graduated: December 2024</p>
+                <p>GPA: 4.0/4.0</p>
+            </div>
+            <img src="asu_logo.png" alt="ASU Logo" class="education-logo">
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="title">Projects</h2>
+        <div class="grid">
+            <div class="grid-card">
+                <span>E-commerce Platform</span>
+                <p>Built with React, Node.js, and PostgreSQL</p>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+            <div class="grid-card">
+                <span>Cloud Migration Tool</span>
+                <p>AWS-based solution for seamless cloud migration</p>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="title">Contact</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>© 2024 Pranathi Meruva. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
