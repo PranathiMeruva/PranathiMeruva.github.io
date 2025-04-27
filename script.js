@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Download resume button
     const resumeBtn = document.getElementById('resume-btn');
     resumeBtn.addEventListener('click', () => {
-        window.open('https://www.dropbox.com/scl/fi/m2xl8qeo80518gnp9yq3d/PMERUVA_RESUME.pdf?rlkey=tmktlyx8zxv1o1zva8dgqdwf3&st=avgrnm38&dl=0', '_blank');
+        window.open('https://www.dropbox.com/scl/fi/fscf3zvda4j6ax2qninnu/PMERUVA_RESUME.pdf?rlkey=u9mslkadgtux3imczdjg9spey&st=algedvmv&dl=0', '_blank');
     });
 
     // Contact me button

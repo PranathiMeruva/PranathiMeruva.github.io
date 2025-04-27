@@ -21,7 +21,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.872);
+    background-color: #333;
     backdrop-filter: blur(8px);
     color: white;
     padding: 0.8rem 2rem;
@@ -110,7 +110,7 @@ section {
     gap: 1.5rem;
 }
 
-.text h1 {
+.text h3{
     font-size: 2.5rem;
     font-weight: 700;
     background: linear-gradient(to right, #599C71, #C28F10);
@@ -120,7 +120,7 @@ section {
     margin-bottom: 0.5rem;
 }
 
-.text h3 {
+.text h5 {
     font-size: 1.2rem;
     font-weight: 500;
     color: #555;
@@ -438,4 +438,6 @@ section {
     .education-logo {
         width: 120px;
     }
+
+
 }
